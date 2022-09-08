@@ -1,9 +1,7 @@
 <main class="container-fluid mt-5 mb-5">
   <div class="px-3 text-center">
-
     <h1>Welcome!</h1>
     <p class="lead"> Choose your role </p><br>
-
     <div class="row mx-auto">
       <div class="col-md-3 col-sm-6 mb-3 align-self-center">
         <div class="card">
