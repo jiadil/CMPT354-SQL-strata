@@ -7,7 +7,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Owner</h5>
-            <p class="card-text">Creat, modify, or delete a Owner account and its relevant Council Meetings</p>
+            <p class="card-text">Create, modify, or delete a Owner account and its relevant Council Meetings</p>
             <a href="/strata/owner/owner.php" class="btn btn-primary">Go</a>
           </div>
         </div>
