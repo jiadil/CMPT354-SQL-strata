@@ -15,7 +15,9 @@
 * [Project ERD](#project-erd)
 
 # <a name="team-members"></a>Team Members
-* @jiadil
+* @Jiadi Luo (@jiaidl)
+* @Lavika Singh
+* @Gurseerat Singh Brar
 
 # <a name="project-description"></a>Project Description
 We have created a simple database and a web page for a strata management system consisting of all the relevant information and various functionalities required to smoothly operate a strata management company. 
