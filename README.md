@@ -1,7 +1,7 @@
 # Strata management system
 * [Team Members](#team-members)
 
-# Strata management system
+# Table of contents
 * [Team Members](#team-members)
 * [Project Description](#project-description)
   * [Owner](#project-description-owner)
@@ -10,7 +10,9 @@
   * [Strata Management Company Owner](#project-description-company-owner)
   * [Strata Manager](#project-description-manager)
   * [Staff](#project-description-staff)
-
+    * [Accountants](#project-description-staff-accountants)
+    * [Contractors](#project-description-staff-contractors)
+* [Project ERD](#project-ERD)
 
 # <a name="team-members"></a>Team Members
 * @jiadil
@@ -74,7 +76,6 @@ Moreover, in the event of the property being transferred to a different company,
 
 ![image](https://user-images.githubusercontent.com/105253900/226075746-98183fce-0ecf-4d73-ac98-7a4579888081.png)
 
-
 In addition, there is a ‘Detail’ button provided alongside each property on the list. 
 Clicking on this detail button shows four tables displaying all the relevant information of a particular property collectively at one convenient web page. 
 You can view the details of the financial statements, repair events, property name, location and category the property falls under commercial or residential.
@@ -99,11 +100,20 @@ Strata Companies can be deleted and inserted or any information for the existing
 
 
 ### <a name="project-description-company-owner"></a>Company Owner
-Clicking on the Company Owner role displays the names of all the company Owners and their respective Company’s RegisterID and phone number. We can add or delete any Company Owner or change any information for an existing owner. 
+Clicking on the Company Owner role displays the names of all the company Owners and their respective Company’s RegisterID and phone number. 
+
+![image](https://user-images.githubusercontent.com/105253900/226478999-bd531827-d4c9-4f0a-a2c3-a03207dca744.png)
 
 As you scroll down, you can also see a separate table listing all the Strata Companies. 
+We can add or delete any Company Owner or change any information for an existing owner. 
 
-Clicking on the ‘Detail’ button for any company owner directs the user to a new web page consisting of information regarding the respective companies that they own including details like the company ID, company name, and address. It is further linked with the strata manager table to verify the managers that this company owner has supervised.
+![image](https://user-images.githubusercontent.com/105253900/226479228-4032b334-7054-4fcc-bebc-21e26f38667b.png)
+
+Clicking on the ‘Detail’ button for any company owner directs the user to a new web page consisting of information regarding the respective companies that they own including details like the company ID, company name, and address. 
+It is further linked with the strata manager table to verify the managers that this company owner has supervised.
+
+![image](https://user-images.githubusercontent.com/105253900/226479291-e795540d-bc4d-4fb2-a789-635df35249bd.png)
+
 
 
 
@@ -121,16 +131,35 @@ In this way they can easily keep track of when the meetings were held and by whi
 
 The table below allowing managers to choose different owners and to check owners’ information.
 
+![image](https://user-images.githubusercontent.com/105253900/226479342-56187ede-7d8f-4051-b5d6-c5f44ea9e1ea.png)
+
 There is also a ‘Detail’ button alongside every strata manager. 
 Clicking on it separately shows detailed information on another web page regarding the staff members (name, phone number, training status and evaluation) that the particular manager has been training and the council meetings (date, location, duration, meetingID and status) that is being monitored.
+
+![image](https://user-images.githubusercontent.com/105253900/226479615-88849177-59c7-4a58-a8fc-968cfe16f1e0.png)
 
 
 
 ### <a name="project-description-staff"></a>Staff
 The staff table lists all the staff members (excluding managers) working in the strata company with information of their name, phone number and SIN. 
+![image](https://user-images.githubusercontent.com/105253900/226479644-83f6aff4-0713-4dfb-9c5e-25684ad30b5c.png)
 
 As any employee resigns or new employees are hired, the staff information can be updated, added and deleted accordingly. 
 
-Certain staff members are further sorted by roles into ‘Accountants’ and ‘Contractors’. 
+![image](https://user-images.githubusercontent.com/105253900/226479706-6371d59e-eec2-4e3c-aafb-f125f41f202e.png)
+
+Certain staff members are further sorted by roles into "Accountants" and "Contractors". 
 Clicking on their respective buttons directs you to their web page with further additional information about staff in both these roles.
 
+#### <a name="project-description-staff-accountants"></a>Accountants
+![image](https://user-images.githubusercontent.com/105253900/226479847-d41652bd-617f-4455-a8d7-24854a223f9a.png)
+![image](https://user-images.githubusercontent.com/105253900/226479899-82c0a79d-bf7e-4cc8-8d7d-5338109c02dc.png)
+
+#### <a name="project-description-staff-contractors"></a>Contractors
+![image](https://user-images.githubusercontent.com/105253900/226480064-0621e8da-287c-47c5-a690-37aa39881214.png)
+
+
+
+
+# <a name="project-ERD"></a>ERD
+![image](https://user-images.githubusercontent.com/105253900/226481799-1512d998-10ef-4d77-a007-5f3a36edef53.png)
