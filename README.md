@@ -12,7 +12,7 @@
   * [Staff](#project-description-staff)
     * [Accountants](#project-description-staff-accountants)
     * [Contractors](#project-description-staff-contractors)
-* [Project ERD](#project-ERD)
+* [Project ERD](#project-erd)
 
 # <a name="team-members"></a>Team Members
 * @jiadil
@@ -161,5 +161,5 @@ Clicking on their respective buttons directs you to their web page with further 
 
 
 
-# <a name="project-ERD"></a>ERD
+# <a name="project-erd"></a>ERD
 ![image](https://user-images.githubusercontent.com/105253900/226481799-1512d998-10ef-4d77-a007-5f3a36edef53.png)
