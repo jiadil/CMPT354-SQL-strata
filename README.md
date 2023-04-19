@@ -1,8 +1,16 @@
 # Strata management system
 * [Team Members](#team-members)
 
+
+
+
 # Table of contents
 * [Team Members](#team-members)
+* [Local Machine](#local-machine)
+  * [XAMPP Download](#xampp-download)
+  * [Test Connection](#test-connection)
+  * [Connect Database](#connect-database)
+  * [Admin Password](#admin-password)
 * [Project Description](#project-description)
   * [Owner](#project-description-owner)
   * [Property](#project-description-property)
@@ -14,10 +22,74 @@
     * [Contractors](#project-description-staff-contractors)
 * [Project ERD](#project-erd)
 
+
+
+
 # <a name="team-members"></a>Team Members
 * @Jiadi Luo (@jiaidl)
 * @Lavika Singh
 * @Gurseerat Singh Brar
+
+
+
+
+# <a name="local-machine"></a>Local Machine
+### <a name="xampp-download"></a>XAMPP Download
+XAMPP server is a server with PHP, MySql And Apache, it allows us to use a single application to control these features.
+Download it here: https://www.apachefriends.org/download.html
+
+### <a name="admin-password"></a>Admin Password
+Go to admin https:/localhost/phpmyadmin/
+At this point the "root" user don’t have any password so first we have to update the password for root user:
+- Go to User Accounts Tab
+
+  ![image](https://user-images.githubusercontent.com/105253900/233214364-049bf635-9b00-4c4e-9dac-6441e1c7778f.png)
+  
+- Click on "Change password"
+
+  ![image](https://user-images.githubusercontent.com/105253900/233214505-d35c17e8-c1e8-45fd-a32c-3d84347cac27.png)
+  
+- Enter the new password as "root" in the fields and click on "Go" button
+
+  ![image](https://user-images.githubusercontent.com/105253900/233214586-f15dbbe9-4f05-4310-8121-d97e746b9569.png)
+
+- Go the file explorer where we have installed XAMPP server, find a folder Name "phpMyAdmin" under it, in this folder locate the file
+`config.inc` and open it
+  
+  ![image](https://user-images.githubusercontent.com/105253900/233214852-e57f1054-4bf5-4698-beb3-b78234ac0586.png)
+
+- Find the password field in `config.inc` and enter the value root in it
+
+  ![image](https://user-images.githubusercontent.com/105253900/233214962-3aaef236-756f-4cab-bdc5-2ff93764e74c.png)
+
+
+
+### <a name="test-connection"></a>Test Connection
+To test that php is running fine in our system.
+
+- Write the code below
+  ```
+  <?php phpinfo(); ?>
+  ```
+
+- Save it as phpinfo.php and put it in the `htdocs` folder under xampp installation directory.
+
+- Go to https://localhost/phpinfo.php, If the image like below will show then our setup is running properly
+  
+  ![image](https://user-images.githubusercontent.com/105253900/233215305-8ddd23e4-d6ef-45eb-bf91-f16ef0375eff.png)
+
+
+### <a name="connect-database"></a>Connet Database
+Connect MYSQL database in PHP
+Create a new database in our MySql database so we can connect it.
+- Open the Admin Panel for MySql or use the url to open it in browser https://localhost/phpmyadmin/
+- Now click on Database tab. In database name enter ZAGI and click on "Create" button (this will create a new database named ZAGI)
+
+  ![image](https://user-images.githubusercontent.com/105253900/233215707-555584d6-d84a-4f7b-9d38-02d18dc24fa4.png)
+
+
+
+
 
 # <a name="project-description"></a>Project Description
 We have created a simple database and a web page for a strata management system consisting of all the relevant information and various functionalities required to smoothly operate a strata management company. 
