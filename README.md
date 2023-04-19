@@ -1,10 +1,6 @@
 # Strata management system
-* [Team Members](#team-members)
 
-
-
-
-# Table of contents
+## Table of contents
 * [Team Members](#team-members)
 * [Local Machine](#local-machine)
   * [XAMPP Download](#xampp-download)
@@ -25,7 +21,7 @@
 
 
 
-# <a name="team-members"></a>Team Members
+## <a name="team-members"></a>Team Members
 * @Jiadi Luo (@jiaidl)
 * @Lavika Singh
 * @Gurseerat Singh Brar
@@ -33,7 +29,7 @@
 
 
 
-# <a name="local-machine"></a>Local Machine
+## <a name="local-machine"></a>Local Machine
 ### <a name="xampp-download"></a>XAMPP Download
 XAMPP server is a server with PHP, MySql And Apache, it allows us to use a single application to control these features.
 Download it here: https://www.apachefriends.org/download.html
@@ -91,7 +87,7 @@ Create a new database in our MySql database so we can connect it.
 
 
 
-# <a name="project-description"></a>Project Description
+## <a name="project-description"></a>Project Description
 We have created a simple database and a web page for a strata management system consisting of all the relevant information and various functionalities required to smoothly operate a strata management company. 
 
 The first glance of our web page depicts different user roles corresponding to the entities in our database along with access to information regarding all the undertaken properties and the teams managing them. 
@@ -235,5 +231,5 @@ Clicking on their respective buttons directs you to their web page with further 
 
 
 
-# <a name="project-erd"></a>ERD
+## <a name="project-erd"></a>ERD
 ![image](https://user-images.githubusercontent.com/105253900/226481799-1512d998-10ef-4d77-a007-5f3a36edef53.png)
